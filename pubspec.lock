@@ -67,6 +67,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  home_automation_tools:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "8404bb3cbcb0bd5d5b6008cdd41c50e14fbd4c23"
+      url: "git://github.com/Hixie/dart-home-automation-tools.git"
+    source: git
+    version: "0.0.0"
   matcher:
     dependency: transitive
     description:
