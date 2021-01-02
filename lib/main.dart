@@ -110,11 +110,11 @@ class WorldPainter extends CustomPainter {
       Size nsize = world.size * cellSize.width;
       Offset padding = (((isize - nsize) as Offset) / 2);
       canvas.drawOval(
-        /*Colors.red*/ Rect.fromLTWH(
-          padding.dx + dPosition.dx, //Colors.red
-          padding.dy + dPosition.dy, //Colors.red
-          cellSize.width, //Colors.red
-          cellSize.height, //Colors.red
+        /*Colors.re*/ Rect.fromLTWH(
+          padding.dx + dPosition.dx, //C\olors.red
+          padding.dy + dPosition.dy, //olors.red
+          cellSize.width, //Colors.rd
+          cellSize.height,
         ),
         Paint()..color = Colors.red[900],
       );
